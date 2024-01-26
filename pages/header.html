@@ -1,0 +1,52 @@
+<div class="header-area header-transparent" ng-controller="ctrlAdmin">
+    <div class="main-header header-sticky">
+        <div class="container-fluid">
+            <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                <div class="left-content d-flex align-items-center">
+                    <div class="logo">
+                        <img src="/logo.png" alt="">
+                    </div>
+
+                    <form action="#" class="form-box">
+                        <input type="text" name="Search" placeholder="Search">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </form>
+
+                    <div class="main-menu d-none d-lg-block">
+                        <nav>
+                            <ul id="navigation">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#quizz">Quizz</a></li>
+                                <li><a href="#account">Account <i class="fas fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="#login">Login</a></li>
+                                        <li><a href="#register">Register</a></li>
+                                        <li><a href="#rePass">Change Password</a></li>
+                                        <li><a href="#admin">Admin</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <ul>
+                        <li class="button-header">
+                            <span style="color: aliceblue; margin-right: 30px;;">Xin chào! {{user.fullname}}</span>
+                            <a href="#" class="btn header-btn2">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+            </div>
+        </div>
+    </div>
+</div>
